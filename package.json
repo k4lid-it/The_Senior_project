@@ -1,0 +1,24 @@
+{
+  "name": "turbo_project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "turbo run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/passport": "^1.0.12",
+    "turbo": "^1.9.6"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "turbo-windows-64": "^1.9.6",
+    "typeorm": "^0.3.16"
+  },
+  "keywords": [],
+  "description": ""
+}
